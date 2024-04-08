@@ -1,0 +1,17 @@
+{
+  "private": "true",
+  "scripts": {
+    "dev": "nr stub",
+    "stub": "pnpm -r --filter=./packages/* --parallel run stub"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.4",
+    "unbuild": "^2.0.0",
+    "vite": "^5.2.8",
+    "vue": "^3.2.45",
+    "vue-router": "workspace:*"
+  }
+}

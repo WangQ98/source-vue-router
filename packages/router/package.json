@@ -1,0 +1,24 @@
+{
+  "name": "vue-router",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup --watch",
+    "stub": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "devDependencies": {
+    "vue": "^3.2.45",
+    "@types/node": "^20.12.5"
+  }
+}
